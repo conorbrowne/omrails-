@@ -3,6 +3,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
+
+#Conor added Devise for authentification ie. logging in, signing up. 
+gem 'devise'
+#Conor added this to easily make the signup forms look nicer. 
+gem 'simple_form'
+
 # Use sqlite3 as the database for Active Record
 group :production do
 	gem 'pg'
