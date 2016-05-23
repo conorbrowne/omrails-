@@ -9,6 +9,9 @@ gem 'devise'
 #Conor added this to easily make the signup forms look nicer. 
 gem 'simple_form'
 
+#Conor added this to allow upload of attachments to pins. First installed ImageMagick
+gem "paperclip", "~> 5.0.0.beta1"
+
 # Use sqlite3 as the database for Active Record
 group :production do
 	gem 'pg'
